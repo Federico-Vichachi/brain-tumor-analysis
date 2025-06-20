@@ -3,7 +3,7 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 
 def download_dataset():
     dataset = "miadul/brain-tumor-dataset"
-    path = "data/"
+    path = "data/raw/"
     
     if not os.path.exists(path):
         os.makedirs(path)
